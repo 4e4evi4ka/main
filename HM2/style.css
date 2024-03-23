@@ -60,7 +60,7 @@
     
   }
   .leftmenu{
-    
+    display: inline-block;
     height: auto;
     margin-right: 52px;
     outline: 1px solid #000000;
@@ -71,7 +71,7 @@
     
   }
   .leftmenu li{
-    display: inline-block;
+    
     padding: 0px 40px;
   }
   .leftmenu li:hover{
