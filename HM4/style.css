@@ -1,0 +1,395 @@
+
+body{
+    max-width: 100%;
+    background-image: url(img/fon.png); 
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+    
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 100%;
+    margin: 0 auto;
+    padding-top: 22px;
+    background-color: rgba(0, 0, 0, 0.412);
+}
+
+.head a {
+    max-width: 100%;
+   text-decoration: none;
+    
+}
+.jour{
+    float: left;
+    font-size: 20px;
+    font-family: "Verdana";
+    color: rgb(60, 184, 120);
+    font-weight: bold;
+    line-height: 1.05;
+    text-align: left;
+    color: white;
+    transition: 0.5s;
+    
+}
+
+.head a:hover .jour{
+    color: rgb(60, 184, 120);
+    transition: 0.5s;
+}
+
+.icons{
+    float: left;
+    width: 19px; 
+    height: 19px;
+    background: url(img/css_sprites.png) -10px -10px;
+    
+}
+.ic1:hover .icons {
+    
+    width: 19px; 
+    height: 19px;
+    background: url(img/css_sprites.png) -49px -10px;
+}
+.icons1{
+    float: left;
+    width: 28px; 
+    height: 20px;
+    background: url(img/css_sprites.png) -168px -10px;
+    
+}
+.ic2:hover .icons1 {
+    
+    width: 28px; 
+    height: 20px;
+    background: url(img/css_sprites.png) -216px -10px;
+}
+.icons2{
+    float: left;
+    width: 20px;
+    height: 20px;
+    background: url(img/css_sprites.png) -88px -10px;
+}
+.ic3:hover .icons2 {
+    
+    width: 20px; 
+    height: 20px;
+    background: url(img/css_sprites.png) -128px -10px;
+}
+.ic .icons1,.icons2{
+    height: 34px;
+    margin-right: 28px;
+    
+}
+.ic .icons{
+    margin-right: 25px;
+}
+.palka{
+    float: left;
+    padding-right: 25px;
+    font-size: 20px;
+    height: 19px;
+    color: rgba(255, 255, 255, 0.102);
+}  
+.head{
+    margin-left: 81px;
+    padding-right: 10px;
+}
+.ic{
+    text-align: left;
+    margin-right: 92px;
+}
+.welc{
+    height: 34px;
+    font-size: 14px;
+    font-family: "Verdana";
+    color: rgb(255, 255, 255);
+    line-height: 1.5;
+    text-align: left;
+}
+.log{
+    text-decoration: none;
+    font-size: 14px;
+    font-family: "Verdana";
+    color: #3cb878;
+    line-height: 1.5;
+    text-align: left;
+    
+}
+.ic .log:hover {
+    text-decoration: underline #3cb878 ;
+}
+.or{
+    height: 34px;
+    font-size: 14px;
+    font-family: "Verdana";
+    color: rgb(255, 255, 255);
+    line-height: 1.5;
+    color: white;
+}
+.sign{
+    text-decoration: none;
+    font-size: 14px;
+    font-family: "Verdana";
+    color: #3cb878;
+    line-height: 1.5;
+    text-align: left;
+}
+.ic .sign:hover {
+    text-decoration: underline #3cb878 ;
+}
+main {
+    display: flex;
+    justify-content: center;
+    margin-top: 65px;
+    
+}
+  
+.container {
+    display: flex;
+    flex-direction: column;
+    max-width: -webkit-fill-available;
+    justify-content: center;
+    
+    /* width: 436px;  под вопросом */
+    /* height: 540px;под вопросом */
+    border-radius: 10px;
+    background-color: white;
+    margin-bottom: 65px;
+    box-shadow: 0px 17px 24px 0px rgba(0, 0, 0, 0.736);  
+}
+  
+form {
+    
+    font-size: 14px;
+    font-family: "Verdana";
+    color: rgb(67, 67, 67);
+    
+    text-align: left;
+    padding-left: 55px;
+    padding-right: 55px;
+    padding-bottom: 32px;
+    padding-top: 18px;
+    
+    
+}
+  
+form input {
+    max-width: -webkit-fill-available;
+    margin: 0 auto;
+    width: 302px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    
+}
+.check {
+    
+    width: 16px;
+    height: 16px;
+    
+    border-radius: 5px;
+}
+
+
+
+.terms{
+    text-decoration: none;
+    color: #3cb878;
+}
+.agree{
+    padding-left: 10px;
+    line-height: 2.5;
+}
+.agree:hover .terms{
+    text-decoration: underline #3cb878 ;
+    
+}
+  
+  
+form input:focus {
+    outline: none;
+    
+    box-shadow: 0px 5px 7px 1px rgba(0, 0, 0, 0.1)
+}
+  
+
+
+  
+.knopka{
+    border-radius: 3px;
+    border:  white;
+    width: 322px;
+    height: 46px;
+    background-color: #3cb878;
+    color: white;
+    font-size: 16px;
+    font-family: "Verdana";
+    color: rgb(255, 255, 255);
+    line-height: 1.313;
+    max-width: -webkit-fill-available;
+    transition: 0.5s;
+}
+
+.knopka:hover{
+    background-color: #329a65;
+    transition: 0.5s;
+}
+.singlogin {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 29px;
+}
+  
+.kvadrat {
+    width: 10px;
+    height: 10px;
+    background-color: green;
+    margin-right: 10px;
+}
+img{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    max-width: 100%;
+    float: left;
+    
+}
+.kv{
+    padding-right: 39px;
+}
+.kvsg {
+    font-size: 20px;
+    font-family: "Verdana";
+    color: rgb(67, 67, 67);
+    line-height: 0.7;
+    text-align: center;
+    
+}
+  
+  
+.login {
+    text-decoration: none;
+    padding-right: 58px;
+    font-size: 14px;
+    font-family: "Verdana";
+    color: rgb(60, 184, 120);
+    line-height: 1.5;
+    text-align: left;
+}
+.login:hover{
+    text-decoration: underline #3cb878;
+}
+.title {
+	/* чтобы линии не выходили за ширину блока заголовка */
+	overflow: hidden;
+    margin-top: 23px;
+}
+.title:before,
+.title:after {
+	content: '';
+    display: inline-block;
+    vertical-align: middle;
+    box-sizing: border-box;
+    width: 100%;
+	height: 1px;
+	background: #0a0a0a32;
+    border: solid #FFF;
+	border-width: 0 20px;
+}
+.title:before {
+	
+	margin-left: 60px;
+    width: 135px;
+}
+.title:after {
+	
+	margin-right: 60px;
+    width: 135px;
+}
+.fg{
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+    margin-top: 15px;
+    text-align: center;
+    max-width: -webkit-fill-available;
+}
+.facebook{
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 3px;
+    border:  white;
+    width: 157px;
+    height: 46px;
+    background-color: #305db8;
+    max-width: -webkit-fill-available;
+    color: white;
+    font-size: 16px;
+    font-family: "Verdana";
+    color: rgb(255, 255, 255);
+    line-height: 2.9;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.fb1{
+    padding-top: 12px;
+    padding-left: 15px;
+    
+}
+.rast{
+    color: white;
+}
+.fc :hover{
+    background-color: #264b96;transition: 0.5s;
+}
+.cherta{
+    padding-left:5px;
+    font-size: 25px;
+    font-family: "Verdana";
+    color: rgba(0, 0, 0, 0.195);
+    line-height: 0.1;
+}
+.google{
+    text-align: left;
+    border-radius: 3px;
+    border:  white;
+    width: 157px;
+    height: 46px;
+    background-color: #df4a32 ;
+    max-width: -webkit-fill-available;
+    font-size: 16px;
+    font-family: "Verdana";
+    color: rgb(255, 255, 255);
+    line-height: 1.313;
+    transition: 0.5s;
+}
+
+.gg :hover{
+    transition: 0.5s;
+    background-color: #c3412c;
+}
+
+.cherta2{
+    padding-left: 3px;
+    padding-right: 8px;
+    font-size: 25px;
+    font-family: "Verdana";
+    color: rgba(0, 0, 0, 0.195);
+    line-height: 0.1;
+}
+.goo{
+    padding-top: 2px;
+    padding-left: 13px;
+}
+
+    
+  
+  
+  
