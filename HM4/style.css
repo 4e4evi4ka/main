@@ -268,7 +268,7 @@ img{
     font-size: 20px;
     font-family: "Verdana";
     color: rgb(67, 67, 67);
-    line-height: 0.7;
+    line-height: 0.89;
     text-align: center;
     
 }
@@ -290,6 +290,10 @@ img{
 	/* чтобы линии не выходили за ширину блока заголовка */
 	overflow: hidden;
     margin-top: 23px;
+    font-size: 14px;
+    font-family: "Verdana";
+    color: rgb(132, 132, 132);
+    line-height: 1.5;
 }
 .title:before,
 .title:after {
