@@ -79,41 +79,78 @@ a{
     text-align: right;
 }
 main{
+    display: inline-block;
     max-width: 100%;
-    margin: 0 auto;    
+    width: 1366px;
+     margin: 0 auto;    
     padding-top: 48px;
-    padding-left: 155px;
+    /* padding-left: 155px;  */
+    /*flex-flow: wrap;
+    padding-right: 147px;
+    width: fit-content; */
 }
-.grid-container { 
-    display: grid; 
-    align-content: center;
-    grid-template-columns: auto auto auto;
-    grid-gap: 67px;
-    width: fit-content;
+
+.item1{
+    float: left;
+    margin-left: 147px;
 }
-.grid-item{
+.item2{
+    margin-left: 67px;
+    float: left;
+}
+.item3{
+    float: right;
+    margin-right: 147px;
+}
+
+
+.item11{
+    display: flex;
     position: relative;
 }
-.grid-item a:hover .hover{
-    opacity: 1;
-    top: 67%; 
-    transition: transform 0.6s ease;
-    transform: translateY(-26px);
+.item12{
+    display: flex;
+    position: relative;
 }
-.grid-item a:hover .desc{
-    color: #f26522;
+.item21{
+    display: flex;
+    position: relative;
 }
-
-
-
-.grid-item a{
+.item22{
+    display: flex;
+    position: relative;
+}
+.item31{
+    display: flex;
+    position: relative;
+}
+.item32{
+    display: flex;
+    position: relative;
+}
+.item1 a{
+    font-size: 18px;
+    font-family: "Verdana";
+    color: rgb(255, 255, 255);
+    line-height: 1.167;
+    text-align: center;
+    
+}
+.item2 a{
     font-size: 18px;
     font-family: "Verdana";
     color: rgb(255, 255, 255);
     line-height: 1.167;
     text-align: center;
 }
-.grid-item img{
+.item3 a{
+    font-size: 18px;
+    font-family: "Verdana";
+    color: rgb(255, 255, 255);
+    line-height: 1.167;
+    text-align: center;
+}
+.item1 img{
     
    margin-bottom: 22px;
    border-style: solid;
@@ -121,7 +158,96 @@ main{
    border-image: conic-gradient(rgb(255, 255, 255), rgb(255, 255, 255), rgba(0, 0, 0, 0.686), rgba(0, 0, 0, 0.56), rgba(12, 12, 12, 0.801), rgb(255, 255, 255), rgb(255, 255, 255)) 1;
    box-shadow: 0px 17px 24px 0px rgba(0, 0, 0, 0.736);  
 }
-.hover{
+.item2 img{
+    
+    margin-bottom: 22px;
+    border-style: solid;
+    border-width: 2px;
+    border-image: conic-gradient(rgb(255, 255, 255), rgb(255, 255, 255), rgba(0, 0, 0, 0.686), rgba(0, 0, 0, 0.56), rgba(12, 12, 12, 0.801), rgb(255, 255, 255), rgb(255, 255, 255)) 1;
+    box-shadow: 0px 17px 24px 0px rgba(0, 0, 0, 0.736);  
+ }
+ .item3 img{
+    
+    margin-bottom: 22px;
+    border-style: solid;
+    border-width: 2px;
+    border-image: conic-gradient(rgb(255, 255, 255), rgb(255, 255, 255), rgba(0, 0, 0, 0.686), rgba(0, 0, 0, 0.56), rgba(12, 12, 12, 0.801), rgb(255, 255, 255), rgb(255, 255, 255)) 1;
+    box-shadow: 0px 17px 24px 0px rgba(0, 0, 0, 0.736);  
+ }
+ .item11 .desc{
+    margin-bottom: 46px;
+ }
+ .item21 .desc{
+    margin-bottom: 46px;
+ }
+ .item31 .desc{
+    margin-bottom: 46px;
+ }
+ .item12 .desc{
+    margin-bottom: 16px;
+ }
+ .item22 .desc{
+    margin-bottom: 16px;
+ }
+ .item32 .desc{
+    margin-bottom: 16px;
+ }
+
+.item11 a:hover .hover1{
+    opacity: 1;
+    top: 57%; 
+    transition: transform 0.6s ease;
+    transform: translateY(-26px);
+}
+.item12 a:hover .hover2{
+    opacity: 1;
+    top: 65%; 
+    transition: transform 0.6s ease;
+    transform: translateY(-26px);
+}
+.item21 a:hover .hover3{
+    opacity: 1;
+    top: 57%; 
+    transition: transform 0.6s ease;
+    transform: translateY(-26px);
+}
+.item22 a:hover .hover4{
+    opacity: 1;
+    top: 65%; 
+    transition: transform 0.6s ease;
+    transform: translateY(-26px);
+}
+.item31 a:hover .hover5{
+    opacity: 1;
+    top: 57%; 
+    transition: transform 0.6s ease;
+    transform: translateY(-26px);
+}
+.item32 a:hover .hover6{
+    opacity: 1;
+    top: 65%; 
+    transition: transform 0.6s ease;
+    transform: translateY(-26px);
+}
+.item11 a:hover .desc{
+    color: #f26522;
+}
+.item12 a:hover .desc{
+    color: #f26522;
+}
+.item21 a:hover .desc{
+    color: #f26522;
+}
+.item22 a:hover .desc{
+    color: #f26522;
+}
+.item31 a:hover .desc{
+    color: #f26522;
+}
+.item32 a:hover .desc{
+    color: #f26522;
+}
+.item11 .hover1{
     background-color: #f26522;
     position: absolute;
     top: 57%; 
@@ -132,7 +258,107 @@ main{
     transform: translateY(0x);
     
 }
-.hover p{
+.item12 .hover2{
+    background-color: #f26522;
+    position: absolute;
+    top: 57%; 
+    width: 100%;
+    height: 63px;
+    opacity: 0;
+    transition: opacity 0.4s ease-in-out;
+    transform: translateY(0x);
+    
+}
+.item21 .hover3{
+    background-color: #f26522;
+    position: absolute;
+    top: 57%; 
+    width: 100%;
+    height: 63px;
+    opacity: 0;
+    transition: opacity 0.4s ease-in-out;
+    transform: translateY(0x);
+    
+}
+.item22 .hover4{
+    background-color: #f26522;
+    position: absolute;
+    top: 57%; 
+    width: 100%;
+    height: 63px;
+    opacity: 0;
+    transition: opacity 0.4s ease-in-out;
+    transform: translateY(0x);
+    
+}
+.item31 .hover5{
+    background-color: #f26522;
+    position: absolute;
+    top: 57%; 
+    width: 100%;
+    height: 63px;
+    opacity: 0;
+    transition: opacity 0.4s ease-in-out;
+    transform: translateY(0x);
+    
+}
+.item32 .hover6{
+    background-color: #f26522;
+    position: absolute;
+    top: 57%; 
+    width: 100%;
+    height: 63px;
+    opacity: 0;
+    transition: opacity 0.4s ease-in-out;
+    transform: translateY(0x);
+    
+}
+.hover1 p{
+    margin-left: 22px;
+    margin-top: 10px;
+    font-size: 10px;
+    font-family: "Verdana";
+    color: rgb(255, 255, 255);
+    line-height: 2.1;
+    text-align: left;
+}
+.hover2 p{
+    margin-left: 22px;
+    margin-top: 10px;
+    font-size: 10px;
+    font-family: "Verdana";
+    color: rgb(255, 255, 255);
+    line-height: 2.1;
+    text-align: left;
+}
+.hover3 p{
+    margin-left: 22px;
+    margin-top: 10px;
+    font-size: 10px;
+    font-family: "Verdana";
+    color: rgb(255, 255, 255);
+    line-height: 2.1;
+    text-align: left;
+}
+.hover4 p{
+    margin-left: 22px;
+    margin-top: 10px;
+    font-size: 10px;
+    font-family: "Verdana";
+    color: rgb(255, 255, 255);
+    line-height: 2.1;
+    text-align: left;
+}
+.hover5 p{
+    margin-left: 22px;
+    margin-top: 10px;
+    font-size: 10px;
+    font-family: "Verdana";
+    color: rgb(255, 255, 255);
+    line-height: 2.1;
+    text-align: left;
+}
+.hover6 p{
     margin-left: 22px;
     margin-top: 10px;
     font-size: 10px;
@@ -148,7 +374,57 @@ span.euro{
     line-height: 1.05;
     text-align: left;
 }
-.hover .view{
+.hover1 .view{
+    
+    font-size: 14px;
+    font-family: "Verdana";
+    color: rgb(255, 255, 255);
+    line-height: 1.5;
+    
+    text-align: right;
+    float: right;
+}
+.hover2 .view{
+    
+    font-size: 14px;
+    font-family: "Verdana";
+    color: rgb(255, 255, 255);
+    line-height: 1.5;
+    
+    text-align: right;
+    float: right;
+}
+.hover3 .view{
+    
+    font-size: 14px;
+    font-family: "Verdana";
+    color: rgb(255, 255, 255);
+    line-height: 1.5;
+    
+    text-align: right;
+    float: right;
+}
+.hover4 .view{
+    
+    font-size: 14px;
+    font-family: "Verdana";
+    color: rgb(255, 255, 255);
+    line-height: 1.5;
+    
+    text-align: right;
+    float: right;
+}
+.hover5 .view{
+    
+    font-size: 14px;
+    font-family: "Verdana";
+    color: rgb(255, 255, 255);
+    line-height: 1.5;
+    
+    text-align: right;
+    float: right;
+}
+.hover6 .view{
     
     font-size: 14px;
     font-family: "Verdana";
