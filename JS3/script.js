@@ -1,5 +1,5 @@
 
-function calcResult(N1, N2, operator) {
+const calcResult = (N1, N2, operator) => {
     switch (operator) {
         case '+':
             return N1 + N2;
@@ -12,7 +12,7 @@ function calcResult(N1, N2, operator) {
         default:
             return 'Невідома операція';
     }
-}
+};
 
 let N1, N2, operator;
 do {
