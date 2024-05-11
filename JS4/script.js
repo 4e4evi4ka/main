@@ -1,31 +1,35 @@
-function createNewUser(){
+const createNewUser = () => {
     let newUser = {
-        getLogin: function(){
-            return console.log(this.Name[0].toLowerCase() + this.SName.toLowerCase());
+        getLogin() {
+            return console.log(`${this.Name[0].toLowerCase()}${this.SName.toLowerCase()}`);
         }
     };
+
     newUser.prototype = {
-        get username(){
+        get username() {
             return this.Name;
         },
-        set username(UserNames){
+        set username(UserNames) {
             this.Name = Name;
         },
-        get usersecondname(){
+        get usersecondname() {
             return this.SName;
         },
-        set usersecondname(UserSecondNames){
+        set usersecondname(UserSecondNames) {
             this.SName = SName;
         }
     };
-    newUser.Name = prompt("Введіть ім`я",'Ваше ім`я');
-    while(newUser.Name === ''){
-        newUser.Name = prompt('Введіть ім`я ще раз! :','Ваше ім`я');
+
+    newUser.Name = prompt("Введіть ім`я", 'Ваше ім`я');
+    while (newUser.Name === '') {
+        newUser.Name = prompt('Введіть ім`я ще раз! :', 'Ваше ім`я');
     }
+
     newUser.SName = prompt("Введіть прізвище", 'Ваше прізвище');
-    while(newUser.SName === ''){
-        newUser.SName = prompt('Введіть прізвище ще раз! :','Ваше прізвище')
+    while (newUser.SName === '') {
+        newUser.SName = prompt('Введіть прізвище ще раз! :', 'Ваше прізвище');
     }
+
     console.log(`Ваше ім'я: ${newUser.Name}`);
     console.log(`Ваше прізвище: ${newUser.SName}`);
     newUser.getLogin();
@@ -36,5 +40,6 @@ function createNewUser(){
     console.log('Ваш новий логін нижче ↓ ')
     newUser.getLogin();
     return newUser;
-}
+};
+
 createNewUser();
