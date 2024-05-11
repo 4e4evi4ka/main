@@ -3,7 +3,7 @@
 //     number1 = +prompt('Введіть перше число ще раз!', '0');
 // }
 
-// let number2 = +prompt('Введіть друге число', '0');
+// let number2 = +prompt('Введіть друге число', '');
 // while (number2 == null || isNaN(number2) || number1 >= number2) {
 //     number2 = +prompt('Введіть друге число ще раз! Воно повинно бути більше першого', '0');
 // }
