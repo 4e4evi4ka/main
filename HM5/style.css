@@ -1,0 +1,282 @@
+#wrapper{
+    margin-top: 20px;
+}
+main{
+    display: flex;
+    max-width: 100%;
+    margin-top: 20px;
+    margin: 0 auto;
+    width: 1192px;
+    flex-wrap: wrap;
+    background-color: #3a4965;
+}
+@font-face {
+    font-family:"Arimo Bold";
+    src: url("Arimo/Arimo/ArimoBold.ttf") ,format("opentype");
+}  
+@font-face {
+    font-family:"Arimo";
+    src: url("Arimo/Arimo/ArimoRegular.ttf"),format("opentype");
+}
+table{ 
+    
+    margin-top: 24px;
+    margin-right: 22px;
+    margin-left: 22px;
+    margin-bottom: 32px;
+    /* border: solid 2px #3a4965;
+    border-color:  black; */
+    max-width: 100%;
+    width: 1170px;
+    vertical-align: baseline;
+}
+
+  
+th{
+    font-size: 16px;
+    font-family: "Arimo Bold";
+    color: rgb(72, 72, 72);
+    text-transform: uppercase;
+    line-height: 1.75;
+    /* border: solid 2px #3a4965;
+    border-color:  black; */
+    
+}
+td{
+    font-size: 16px;
+    font-family: "Arimo";
+    color: rgb(72, 72, 72);
+    text-transform: uppercase;
+    line-height: 1.75;
+    
+    padding-top: 19px;
+    text-align: center;
+    
+    /* border: solid 2px #3a4965;
+    border-color:  black; */
+}
+.choose{
+    padding-top: 24px;
+    background-color: #f4f4f5;
+    width: 310px;
+    /* height: 156px 86 i 70; */
+}
+
+.stand, .ult, .prem{
+    height: 70px;
+    font-size: 24px;
+    font-family: "Arimo";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.167;
+      
+}
+.stand{
+    width: 277px;
+    background-color: #87bf33;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .25);
+}
+.ult{
+    background-color: rgb(240, 74, 86);
+    width: 279px;
+}
+.prem{
+    background-color: rgb(32, 128, 124);
+    width: 277px;
+}
+.price{
+    height: 86px;
+    
+}
+.pr{
+    padding-left: 33px;
+    font-size: 60px;
+    font-family: "Arimo Bold";
+    color: rgb(72, 72, 72);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .25);
+    text-transform: uppercase;
+    line-height: 0.467;
+    text-align: left;      
+    background-color: rgb(250, 250, 250);
+    width: 277px;
+}
+.pricee { 
+    
+    vertical-align: super;
+    font-size: smaller;
+    font-size: 24px;
+    font-family: "Arimo Bold";
+    color: rgb(72, 72, 72);
+    text-transform: uppercase;
+    line-height: 1.167;
+    text-align: center;
+}
+.per{
+   padding-left: 100px;
+    font-size: 18px;
+    font-family: "Arimo";
+    color: rgb(72, 72, 72);
+    text-transform: uppercase;
+    line-height: 0;
+}
+.gray{
+    height: 69px;
+    background-color: #ecedee;
+    
+}
+.storage, .limited, .unlimited{
+    box-shadow: -1px 0px 3px 0px rgb(0 0 0 / 13%);
+}
+.stor, .band, .em, .sup, .prod, .user{
+    width: 310px;
+}
+
+.emails{
+    box-shadow: -2px 0px 2px 0px rgba(0, 0, 0, 0.089);
+}
+.support{
+    box-shadow: -1px 0px 3px 0px rgb(0 0 0 / 13%);
+}
+.products{
+    box-shadow: -2px 0px 2px 0px rgba(0, 0, 0, 0.089);
+}
+.users{
+    box-shadow: -1px 0px 3px 0px rgb(0 0 0 / 13%);
+}
+.dgray{
+    height: 69px;
+    background-color: #dededf;
+}
+.dgraycont{
+    font-size: 16px;
+    font-family: "Arimo";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.75;
+    text-align: center;
+    background-color: #d8d8d9;
+    padding-bottom: 27px;
+}
+.contactus{
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 7px;
+    margin-left: 58px;
+    margin-right: 58px;
+    text-align: center;
+    border-radius: 5px;
+    background-color: rgb(72, 72, 72);
+    width: 192px;
+    box-shadow: 0 5px 0 rgb(64, 64, 64);
+    transition: .3s;
+}
+.dgraycont .contactus:hover{
+    background: rgb(50, 49, 49);
+    transition: .3s;
+}
+.graybuy{
+    background-color: #ecedee;
+    padding-bottom: 27px;
+    box-shadow: -1px 0px 3px 0px rgb(0 0 0 / 13%);
+}
+
+.buy1{
+    display: inline-block;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: "Arimo";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.75;
+    padding-top: 10px;
+    padding-bottom: 7px;
+    margin-left: 29px;
+    margin-right: 29px;
+    text-align: center;
+    border-radius: 5px;
+    background-color: #87bf33;
+    width: 192px;
+    box-shadow: 0 5px 0 #77ad29;
+    transition: .3s;
+}
+.graybuy .buy1:hover{
+    background: #73b117;
+    transition: .3s;
+}
+.buy2{
+    display: inline-block;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: "Arimo";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.75;
+    padding-top: 10px;
+    padding-bottom: 7px;
+    margin-left: 29px;
+    margin-right: 29px;
+    text-align: center;
+    border-radius: 5px;
+    background-color: rgb(240, 74, 86);
+    width: 192px;
+    box-shadow: 0 5px 0 #da3a47;
+    transition: .3s;
+}
+.graybuy .buy2:hover{
+    background: #e01f2f;
+    transition: .3s;
+}
+
+.buy3{
+    display: inline-block;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: "Arimo";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.75;
+    padding-top: 10px;
+    padding-bottom: 7px;
+    margin-left: 29px;
+    margin-right: 29px;
+    text-align: center;
+    border-radius: 5px;
+    background-color: rgb(32, 128, 124);
+    width: 192px;
+    box-shadow: 0 5px 0 #17726f;
+    transition: .3s;
+}
+.graybuy .buy3:hover{
+    background: #076764;
+    transition: .3s;
+}
+
+
+.fa-archive, .fa-envelope, .fa-life-ring, .fa-cube, .fa-users, .fa-cloud-upload{
+    padding-right: 10px;
+    font-size: 24px;
+    font-family: "FontAwesome";
+    color: rgb(132, 132, 132);
+    text-transform: uppercase;
+    line-height: 1.167;
+}
+.letter{
+    
+    font-size: 30px;
+    font-family: "Arimo";
+    color: rgb(72, 72, 72);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 0.933;
+    text-align: center;
+      
+}
+  
